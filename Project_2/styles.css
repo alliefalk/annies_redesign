@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffff0;
+}
+
+.header {
+    width: 1205px;
+    height: 200px;
+    background-color:  #8b0000;
+    margin: 0 auto;
+    margin-right: 240px;
+    /*border-radius: 10px;*/
+    font-family: Gill Sans, sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 30px;
+    color: #fffff0;
+}
+
+.logo {
+    float: left;
+    margin-left: 300px;
+    margin-right: 5px;
+
+}
+
+.title {
+    float: left;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.slogan {
+    font-family: Gill Sans, sans-serif;
+    font-size: 15pt;
+    font-weight: lighter;
+    padding-left: 220px;
+    padding-bottom: 10px;
+    color: #33adff;
+    float: left;
+
+}
+
+.wrapper {
+    width: 1205px;
+    height: 3480px;
+    background-color: #fffff0;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 240px;
+    border-style: solid;
+    border-color: #33adff;
+    border-top: #fffff0;
+
+    background-size: 2400px;
+}
+
+
+
+nav {
+    width: 1200px;
+    height: 40px;
+    background-color:  #8b0000;
+    color: #a9a9a9;
+    font-family: "Gill Sans", sans-serif;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    /*border-radius: 10px;*/
+    margin-top: 10px;
+}
+
+.annies_image_home {
+    width: 363px;
+    height: 520px;
+    background-color: #8b0000;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+.img {
+    /*border-radius: 10px;*/
+}
+
+.mission_statement {
+    width: 485px;
+    height: 520px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: #33adff;
+
+    float: left;
+}
+
+.home_hours_location {
+    width: 280px;
+    height: 250px;
+    /*margin-bottom: 20px;*/
+    padding-top: -100px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    text-align: center;
+    /*margin-left: 910px;*/
+    /*margin-bottom: 10px;*/
+    border-style: solid;
+    border-color: #33adff;
+    float: left;
+
+}
+
+.google_link {
+    width: 280px;
+    height: 220px;
+    /*margin-left: 910px;*/
+    margin-top: 50px;
+    float: left;
+}
+
+.menu_div {
+    width: 580px;
+    height: 620px;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #33adff;
+}
+
+.p_bolded {
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.p_regular {
+    font-size: 12pt;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.order_image_div {
+    width: 580px;
+    height: 610px;
+    font-family: "Gill Sans", sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    font-family: Gill Sans, sans-serif;
+    margin-top: 20px;
+    border-style: solid;
+    border-color:#33adff;
+
+}
+
+/*.image_description {*/
+/*width: 500px;*/
+/*height: 20px;*/
+/*background-color: darkred;*/
+/**/
+/*}*/
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    /*border-radius: 0 3px 3px 0;*/
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #fffff0;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.text2 {
+    color: red;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.reviews_div {
+    width: 580px;
+    height: 170px;
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    text-align: left;
+    /*background-color: darkred;*/
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color:#33adff;
+
+
+}
+
+.reviewer {
+    float: left;
+    padding-top: 80px;
+}
+
+.review_link {
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 300px;
+    float: left;
+}
+
+.review_link2 {
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 290px;
+    float: left;
+}
+
+.review_link3 {
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 260px;
+    float: left;
+}
+
+#menu {
+    width: 1200px;
+    height: 75px;
+    background-color: #8b0000;
+    color: #fffff0;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30pt;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 90px;
+    /*border-radius: 10px;*/
+    float: left;
+    margin-bottom: 20px;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.malt {
+    width: 580px;
+    height: 120px;
+    /*margin-top: 100px;*/
+    /*background-color: darkred;*/
+}
+
+.beverage {
+    width: 580px;
+    height: 120px;
+    margin-top: 150px;
+    /*background-color: darkred;*/
+}
+
+.kids {
+    width: 580px;
+    height: 120px;
+    margin-top: 120px;
+    /*background-color: darkred;*/
+}
+
+#orderstatus, #reviews, #photos {
+    width: 1200px;
+    height: 75px;
+    background-color: #8b0000;
+    color: #fffff0;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30pt;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 90px;
+    /*border-radius: 10px;*/
+}
+
+p#nav_menu, p#nav_order_status,
+p#nav_photo_gallery, p#nav_reviews {
+    display: inline;
+    font-size: 24px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    padding: 0 40px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fffff0;
+}
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+a:active {
+    text-decoration: none;
+    color: red;
+}
+
+.reviews_div:hover {
+    text-decoration: none;
+    background-color: #33adff;
+    color: #8b0000;
+    opacity: .8;
+
+}
+
+p {
+    padding-top: 25px;
+    padding-left: 10px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.footer {
+    height: 80px;
+    width: 1200px;
+    background-color: #8b0000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+    /*border-radius: 10px;*/
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.footer_text_right {
+    font-size: 12pt;
+    font-family: Gill Sans, sans-serif;
+    text-align: right;
+    color: #fffff0;
+    margin-left: 405px;
+    margin-right: 10px;
+    margin-top: -45px;
+    float: left;
+}
+
+.footer_text_left {
+    font-size: 12pt;
+    font-family: Gill Sans, sans-serif;
+    text-align: left;
+    color: #fffff0;
+    margin-top: -45px;
+    float: left;
+}
+
+.footer_logo {
+    height: 60px;
+    float: left;
+    margin-top: -35px;
+    float:left;
+}
